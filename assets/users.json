@@ -1,0 +1,29 @@
+[
+  {
+    "id": 1,
+    "name": "Arun",
+    "email": "arun@example.com",
+    "phone": "+91 9876543210",
+    "age": 25,
+    "profile_image": "afsg",
+    "city": "Bengaluru"
+  },
+  {
+    "id": 2,
+    "name": "Manu",
+    "email": "manu@example.com",
+    "phone": "+91 9876501234",
+    "age": 28,
+    "profile_image": "https://img.magnific.com/premium-photo/young-brazilian-man-isolated-white-background-laughing_1368-362553.jpg?semt=ais_hybrid&w=740&q=80",
+    "city": "Mysuru"
+  },
+  {
+    "id": 3,
+    "name": "Rahul",
+    "email": "rahul@example.com",
+    "phone": "+91 9988776655",
+    "profile_image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRESsQSjjeSlYqYnIhGWSFIvgW-EFAqMaEAu3l6flWgPQ&s=10",
+    "age": 22,
+    "city": "Hyderabad"
+  }
+]
