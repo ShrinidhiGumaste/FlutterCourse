@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:fluttercourse/app1/auth/login_screen.dart';
 import 'package:fluttercourse/app1/screens/home_screen.dart';
 import 'package:fluttercourse/grocery_store_app/screens/home_screen.dart';
+import 'package:fluttercourse/shared_preference/example1_homePage.dart';
 import 'package:google_fonts/google_fonts.dart';
 
 import 'cookbook/demo_tab_screen.dart';
@@ -37,7 +38,7 @@ class MyApp extends StatelessWidget {
         ),
       ),
 
-      home: const LoginScreen(),
+      home: const SHPHomePage(),
 
       // OR
       // home: const HomeScreen0(),
