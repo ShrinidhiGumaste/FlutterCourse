@@ -1,0 +1,28 @@
+import 'package:flutter/cupertino.dart';
+import 'package:flutter/material.dart%20';
+
+import 'animation_builder_home_page.dart';
+
+void main() { // main() => is where the Flutter application starts.
+  // runApp() => Tells Flutter "Start my application with this widget."
+  runApp(const AnimationBuilderApp());
+}
+
+class AnimationBuilderApp extends StatelessWidget {
+  const AnimationBuilderApp({super.key}); // This is the constructor for AnimationBuilderApp.
+
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp( // MaterialApp is the main container/configuration for the Flutter app.
+      // MaterialApp Provides Theme, APP Title, Navigation, Home Screen.
+      debugShowCheckedModeBanner: false, // Removing the Debug Banner.
+      title: 'AnimationBuilderApp Demo', // This gives a title for Application.
+
+      theme: ThemeData( // This controls the overall appearance/theme of the app.
+        useMaterial3: true, // Uses Flutter's Material 3 design system.
+        colorScheme: ColorScheme.fromSeed(seedColor: Colors.grey), // It creates a color scheme based on grey.
+      ),
+      home: AnimationBuilderHomePage(), // This Tells Flutter that "When the app starts, show AnimationBuilderHomePage."
+    );
+  }
+}
